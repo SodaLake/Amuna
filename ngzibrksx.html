@@ -1,17 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>엄준식</title>
+  <html>
+      <head>
+          <title>메인 페이지 공사중</title>
+          <script src="ngzibrksx.js" charset="utf-8"></script>
+          <link rel="stylesheet" href="ngzibrksx.css">
+          <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <img src="amunalogo.png" alt="site logo">
-        메인 페이지 공사중
 
-        수학
-        물리
-        지구과학
+      <div class="left">
+        <img src="amunaml.png" alt="site logo">
+        <ul class="tree">
+          <li>
+            <input type="checkbox" id="root">
+            <label for="root">root</label>
+            <ul>
+              <li>
+                <input type="checkbox" id="node1">
+                <label for="node1">기초</label>
+                <ul>
+                  <li><input type="radio" name="tabs" id="tab11" checked><label for="tab11">중등수학</label></li>
+                </ul>
+              </li>
+              <li>
+                <input type="checkbox" id="node2">
+                <label for="node2">외국어</label>
+                <ul>
+                  <li><input type="radio" name="tabs" id="tab21" checked><label for="tab21">영어</label></li>
+                  <li><input type="radio" name="tabs" id="tab22" ><label for="tab22">중국어</label></li>
+                </ul>
+              </li>
+              <li>
+                <input type="checkbox" id="node3">
+                <label for="node3">수능</label>
+                <ul>
+                  <li><input type="radio" name="tabs" id="tab31" checked><label for="tab31">수학</label></li>
+                  <li><input type="radio" name="tabs" id="tab32" ><label for="tab32">물리</label></li>
+                  <li><input type="radio" name="tabs" id="tab33" ><label for="tab33">지구과학</label></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <div id="content11" class="tab-content">
+          중등수학
+        </div>
+        <div id="content21" class="tab-content">
+          영어
+      
+        </div>
+        <div id="content22" class="tab-content">
 
-        기타 추가 예정
+        </div>
+        <div id="content31" class="tab-content">
+          수학
+        </div>
+        <div id="content32" class="tab-content">
+          물리
+        </div>
+        <div id="content33" class="tab-content">
+          지구과학
+        </div>
+      </div>
+
 
     </body>
 </html>

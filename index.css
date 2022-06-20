@@ -1,0 +1,14 @@
+@font-face{
+		font-family:'DungGeunMo'; /*글꼴*/
+		src: local('DungGeunMo'),
+			url('DungGeunMo.eot'),
+			url('DungGeunMo.woff') format('woff'),
+			url('DungGeunMo.ttf') format('truetype');
+	}
+
+*{
+
+		font-family: 'DungGeunMo', sans-serif;/*웹 폰트 지정*/
+	
+
+}

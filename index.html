@@ -1,36 +1,15 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title Test</title>
+        <title>AMUNA</title>
         <script	src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
-        <script type="text/javascript">
-
-        window.onload = function(){
-          var pwInput = document.getElementById('pw')
-
-          document.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-
-                sha = sha256(pwInput.value)
-                if(sha == "6eb33b56261bf653528d4809bd9e29c568fc3425455c4b1fac267850a8fe50f5")
-                {
-                    alert("성공했습니다. 메인페이지로 이동합니다.")
-                    location.href='ngzibrksx.html'
-                }
-                else
-                {
-                    alert("코드가 올바르지 않습니다.")
-                }
-              }
-          });
-        }
-
-
-
-        </script>
+        <script src="index.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <img src="amunalogo.png" alt="site logo">
+        <img src="amunaml.png" alt="site logo" >
         <h1>접속하기</h1>
         <input id="pw" type="text" placeholder="코드를 입력하십시오."><br>
 

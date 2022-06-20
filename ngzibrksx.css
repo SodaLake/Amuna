@@ -1,0 +1,64 @@
+div.left {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  //background: #8977ad;
+}
+div.right {
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+  //background: #ece6cc;
+}
+.tree{
+  color:#393939;
+}
+.tree, .tree ul{
+  list-style: none;
+  padding-left:17px;
+}
+.tree *:before{
+  width:17px;
+  height:17px;
+  display:inline-block;
+}
+.tree label{
+  cursor: pointer;
+}
+.tree label:before{
+
+  /* font-family: dotum; */
+}
+.tree a{
+  text-decoration: none;
+  color:#393939;
+}
+.tree a:before{
+
+  /* font-family: dotum; */
+}
+.tree input[type="checkbox"] {
+  display: none;
+}
+.tree input[type="checkbox"]:checked~ul {
+  display: none;
+}
+.tree input[type="checkbox"]:checked+label:before{
+  content:'▼';
+  /* font-family: dotum; */
+}
+.tab-content {
+  width: 100%; /*부모 div width와 같은 width를 가진다.*/
+  height: 1500px;
+  display: none; /*기본 값일땐 화면에 표시하지 않음. 체크 상태일 때, 화면에 표시되어야 함 */
+  border-top: 2px solid rgba(200, 200, 200, 0.534);/*탭 메뉴와 내용구분선*/
+}
+
+[type="radio"]{
+  display:none
+}
+
+
+#content1{
+  display:flex;
+}
