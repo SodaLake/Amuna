@@ -5,6 +5,9 @@
           <script src="ngzibrksx.js" charset="utf-8"></script>
           <link rel="stylesheet" href="ngzibrksx.css">
           <link rel="stylesheet" href="index.css">
+          <link rel = "icon" href =
+  "amuna.png"
+          type = "image/x-icon">
     </head>
     <body>
 
@@ -39,6 +42,14 @@
                   <li><input type="radio" name="tabs" id="tab33" ><label for="tab33">지구과학</label></li>
                 </ul>
               </li>
+              <li>
+                <input type="checkbox" id="node4">
+                <label for="node4">사이트 정보</label>
+                <ul>
+                  <li><input type="radio" name="tabs" id="tab41" checked><label for="tab41">소개</label></li>
+                  <li><input type="radio" name="tabs" id="tab42" checked><label for="tab42">변경 내역</label></li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
@@ -46,10 +57,20 @@
       <div class="right">
         <div id="content11" class="tab-content">
           중등수학
+
+          <div id="arithmetic">
+            <p>정수의 사칙연산 연습. 현재는 덧셈과 뺄셈만 연습할 수 있습니다. 아래에 정답을 입력하십시오. 답은 정수로만 입력해 주십시오. </p>
+            <h3 id = "question">1 + 1</h3>
+            <input id="answer" type="text" name="answer" value="">
+            <p id ="log">기록(페이지를 나가면 초기화됩니다.)</p>
+          </div>
         </div>
         <div id="content21" class="tab-content">
-          영어
-      
+          <p>
+            Test.
+          </p>
+
+
         </div>
         <div id="content22" class="tab-content">
 
@@ -62,6 +83,29 @@
         </div>
         <div id="content33" class="tab-content">
           지구과학
+        </div>
+        <div id="content41" class="tab-content">
+          <p>웹 프로그래밍 연습용, 공부한 것들 저장용으로 만든 사이트입니다.
+          <a href="http://amuna.ml">amuna.ml</a>로 접속할 수 있습니다.
+          백업은 따로 해 놓았으나, 취약점을 제보해 주시면 큰 도움이 됩니다.
+          접속 코드와 메인 페이지의 주소는 언제든지 변경될 수 있으므로 관리자에게 문의하십시오.
+
+          웬만하면 jQuery 같은 서드 파티를 사용하지 않습니다.
+          </p>
+        </div>
+        <div id="content42" class="tab-content">
+          <h1>변경 내역</h1><br>
+          <p>0.1 (22-06-20) : 사이트 개설</p>
+          <p>0.2 (22-06-21) : <사이트 정보> 탭 추가</p>
+
+
+        </div>
+        <div id="content43" class="tab-content">
+          <h1>알려진 버그</h1><br>
+          <p>메뉴를 두 번 누르면 꺼지는 버그가 있습니다. 임시방편으로 다른 메뉴를 한 번 클릭했다가 돌아오십시오.</p>
+
+
+
         </div>
       </div>
 

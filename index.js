@@ -1,5 +1,18 @@
+var mainText = "arstrstatsrtasr"
+
+function getIP(json) {
+
+    mainText = json.ip
+  }
+
 window.onload = function(){
+
+  mainText =   mainText + "에서 접속하였습니다."
+
   var pwInput = document.getElementById('pw')
+  document.getElementById('ipip').innerHTML = mainText;
+
+
 
   document.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
@@ -16,4 +29,6 @@ window.onload = function(){
         }
       }
   });
+
+
 }
